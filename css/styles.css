@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0px;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212529;
+    color:#ffffff;
+
+}
+
+li{
+    margin: 10px; /*centrar  la lista que hay en header*/
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+a:link,a:hover{
+    color: #ffb742;
+}
+
+button{
+    margin: ; /*margen del btón*/
+    font-weight: 800; /*negrilla*/
+    border-radius: 20px;
+    border-style: none;
+    width: 100px; ;
+    height: 40px ; /*bfeufh*/
+    background-color: #ffb742 ;
+    padding: 5px;
+}
+
+section{
+    display: flex;
+    margin: 40px;
+}
+
+
+.cajaGris{
+    background-color: #292b2e;
+    height: 120px;
+    width: 4160px;
+    margin: 24px;
+}
+
+h2 h1 span{
+    font-family:"inter";
+    font-size: 32;
+}
+
+#miNombreAmarillo{
+    color: #ffb742;
+}
+
+#subtituloMain{
+    font-size: 24;
+}
+
+footer{
+    justify-content: ;
+    background-color: #1c1c1c;
+    display: flex ;
+
+}
+
+header{
+    justify-content: space-between;
+    display: flex
+}
+
+ul{
+    display: flex;
+}
+
+footer ul{
+    flex-direction: column;
+}
+
+footer{
+    display:flex ;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+}
+
+main{
+    text-align: center; /*centrar el main "Hi, I am Ma...."*/
+}
+
+main span{
+    display: block; /* cambia de linea a bloque*/
+}
+
+.enBloque{
+    display: block;
+}
