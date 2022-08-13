@@ -1,0 +1,43 @@
+.contenedor_cajas {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin-bottom: 50px;
+}
+
+.contenedor_cajas .cajaGris {
+    background-color: #292b2e;
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.contenedor_cajas .cajaGris > img {
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+}
+
+.contenedor_cajas .cajaGris .caja_info img {
+    height: 100%;
+    width: 70px;
+    display: block;
+}
+
+h2 h1 span{
+    font-family:"inter";
+    font-size: 32;
+}
+
+#miNombreAmarillo{
+    color: #ffb742;
+}
+
+#subtituloMain{
+    font-size: 24;
+}
