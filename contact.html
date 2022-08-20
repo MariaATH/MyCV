@@ -30,6 +30,26 @@
 
     <button>Send me</button>
 
+ 
+    <h1 id="chiste"></h1>
+    <h1 id="respuesta"></h1>
+    
+    <script>
+        const endpoint = "https://api.dadjokes.io/api/random/joke";
+        fetch(endpoint)
+        .then(response => response.json())
+        .then(data => {
+            const chiste = data.body[0].setup;
+            const respuesta = data.body[0].punchline;
+            document.getElementById("chiste").innerHTML = "-"+chiste;
+            document.getElementById("respuesta").innerHTML = "-"+respuesta;
+            
+            console.log(chiste,"\n",respuesta);
+        }).catch(error => {
+            document.getElementById("chiste").innerHTML = "Error";
+        })
+    </script>
+
     <footer>
 
         <ul>
